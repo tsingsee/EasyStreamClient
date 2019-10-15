@@ -1,27 +1,50 @@
 
-¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞò£ºEasyStreamClient ÏîÄ¿¸ÅÊö 
+æ§åˆ¶å°åº”ç”¨ç¨‹åºï¼šEasyStreamClient é¡¹ç›®æ¦‚è¿° 
 
-EasyStreamClientÊÇÒ»Ì×·Ç³£ÎÈ¶¨¡¢Ò×ÓÃ¡¢Ö§³ÖÖØÁ¬µÄStreamClient¹¤¾ß£¬ÒÔSDKĞÎÊ½Ìá¹©£¬ ½Ó¿Úµ÷ÓÃ·Ç³£¼òµ¥£¬¾­¹ı¶àÄêÊµÕ½ºÍÏßÉÏÔËĞĞ´òÔì£¬Ö§³ÖRTMPÍÆËÍ¶ÏÏßÖØÁ¬¡¢»·ĞÎ»º³å¡¢ÖÇÄÜ¶ªÖ¡¡¢ ÍøÂçÊÂ¼ş»Øµ÷£»ÔÙÒ²²»ÓÃÏñµ÷ÓÃlive555ÄÇÑù´¦ÀíÕû¸öRTSPµÄ¸´ÔÓÁ÷³Ì£¬µ£ĞÄÄÚ´æÊÍ·ÅµÄÎÊÌâÁË¡£ È«Æ½Ì¨Ö§³Ö£¨°üÀ¨Windows/Linux 32&64¡¢ARM¸÷Æ½Ì¨¡¢Android¡¢iOS£©£¬½Ó¿Ú¼òµ¥ÇÒ³ÉÊìÎÈ¶¨
+EasyStreamClientæ˜¯ä¸€å¥—éå¸¸ç¨³å®šã€æ˜“ç”¨ã€æ”¯æŒé‡è¿çš„StreamClientå·¥å…·ï¼Œä»¥SDKå½¢å¼æä¾›ï¼Œ æ¥å£è°ƒç”¨éå¸¸ç®€å•ï¼Œç»è¿‡å¤šå¹´å®æˆ˜å’Œçº¿ä¸Šè¿è¡Œæ‰“é€ ï¼Œæ”¯æŒRTMPæ¨é€æ–­çº¿é‡è¿ã€ç¯å½¢ç¼“å†²ã€æ™ºèƒ½ä¸¢å¸§ã€ ç½‘ç»œäº‹ä»¶å›è°ƒï¼›å†ä¹Ÿä¸ç”¨åƒè°ƒç”¨live555é‚£æ ·å¤„ç†æ•´ä¸ªRTSPçš„å¤æ‚æµç¨‹ï¼Œæ‹…å¿ƒå†…å­˜é‡Šæ”¾çš„é—®é¢˜äº†ã€‚ å…¨å¹³å°æ”¯æŒï¼ˆåŒ…æ‹¬Windows/Linux 32&64ã€ARMå„å¹³å°ã€Androidã€iOSï¼‰ï¼Œæ¥å£ç®€å•ä¸”æˆç†Ÿç¨³å®š
 
-#ÔËĞĞËµÃ÷
+#è¿è¡Œè¯´æ˜
 
 ##Win
-ÔËĞĞEasyStreamClient.exe
-64Î»¹¤³Ì³ÌĞò
+è¿è¡ŒEasyStreamClient.exe
+64ä½å·¥ç¨‹ç¨‹åº
 
 
 	printf("EasyStreamClient.exe -m udp -d rtsp://srcAddr -s file/rtmp/mp4 -f rtmp://dstAddr\n");
 	printf("-m: tcp or udp\n");
-	printf("-d: rtspµØÖ·¡¢m3u8Â¼ÏñÔ´µØÖ·\n");
-	//printf("-s: Êä³ö¸ñÊ½£¬fileÎªH.264(H.265)¡¢rtmpÎªRTMPÍÆÁ÷¡¢mp4ÎªÂ¼ÏñºÏ³É\n");
-	//printf("-f: Êä³öµØÖ·£¬h.264(H.265)¡¢      rtmpµØÖ·¡¢      mp4Â·¾¶\n");
+	printf("-d: rtspåœ°å€ã€m3u8å½•åƒæºåœ°å€\n");
+	//printf("-s: è¾“å‡ºæ ¼å¼ï¼Œfileä¸ºH.264(H.265)ã€rtmpä¸ºRTMPæ¨æµã€mp4ä¸ºå½•åƒåˆæˆ\n");
+	//printf("-f: è¾“å‡ºåœ°å€ï¼Œh.264(H.265)ã€      rtmpåœ°å€ã€      mp4è·¯å¾„\n");
 
-	printf("-s: Êä³ö¸ñÊ½£¬fileÎªH.264(H.265)¡¢rtmpÎªRTMPÍÆÁ÷\n");
-	printf("-f: Êä³öµØÖ·£¬h.264(H.265)¡¢      rtmpµØÖ·\n");
-	printf("-t: ³¬Ê±Ê±³¤(Ãë)\n");
+	printf("-s: è¾“å‡ºæ ¼å¼ï¼Œfileä¸ºH.264(H.265)ã€rtmpä¸ºRTMPæ¨æµ\n");
+	printf("-f: è¾“å‡ºåœ°å€ï¼Œh.264(H.265)ã€      rtmpåœ°å€\n");
+	printf("-t: è¶…æ—¶æ—¶é•¿(ç§’)\n");
 
 	printf("EasyStreamClient.exe -m tcp -d rtsp://192.168.1.100/ch1 -s file -f 1.h264");
 
 
 
-	ÊäÈëÃüÁîÊ¾Àı: -m tcp -d rtsp://admin:12345@112.28.34.31:554/Streaming/Channels/102 -s rtmp -f rtmp://192.168.99.106:10085/hls/test?sign=zlaJjyhZg
+	è¾“å…¥å‘½ä»¤ç¤ºä¾‹: -m tcp -d rtsp://admin:12345@112.28.34.31:554/Streaming/Channels/102 -s rtmp -f rtmp://192.168.99.106:10085/hls/test?sign=zlaJjyhZg
+	
+	
+
+æ›´å¤šæµåª’ä½“éŸ³è§†é¢‘èµ„æº
+
+EasyDarwinå¼€æºæµåª’ä½“æœåŠ¡å™¨ï¼šwww.EasyDarwin.org
+
+EasyDSSé«˜æ€§èƒ½äº’è”ç½‘ç›´æ’­æœåŠ¡ï¼šwww.EasyDSS.com
+
+EasyNVRå®‰é˜²è§†é¢‘å¯è§†åŒ–æœåŠ¡ï¼šwww.EasyNVR.com
+
+EasyNVSè§†é¢‘ç»¼åˆç®¡ç†å¹³å°ï¼šwww.EasyNVS.com
+
+EasyNTSäº‘ç»„ç½‘ï¼šwww.EasyNTS.com
+
+EasyGBSå›½æ ‡GB/T28181æœåŠ¡å™¨ï¼šwww.EasyGBS.com
+
+EasyRTSåº”æ€¥æŒ‡æŒ¥å¹³å°ï¼šwww.EasyRTS.com
+
+TSINGSEEé’çŠ€å¼€æ”¾å¹³å°ï¼šopen.TSINGSEE.com
+
+Copyright Â© www.TSINGSEE.com Team 2012-2019
+
