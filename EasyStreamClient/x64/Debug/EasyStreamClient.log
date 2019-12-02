@@ -1,4 +1,4 @@
-﻿生成启动时间为 2019/10/14 17:35:52。
+﻿生成启动时间为 2019/12/2 19:06:01。
      1>项目“F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\EasyStreamClient.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\EasyStreamClient.lastbuildstate”。
@@ -45,4 +45,4 @@
 
 生成成功。
 
-已用时间 00:00:01.68
+已用时间 00:00:06.06
