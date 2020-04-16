@@ -46,5 +46,5 @@ EasyRTS应急指挥平台：www.EasyRTS.com
 
 TSINGSEE青犀开放平台：open.TSINGSEE.com
 
-Copyright © www.TSINGSEE.com Team 2012-2019
+Copyright © www.TSINGSEE.com Team 2012-2020
 
