@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments> -m tcp -d rtsp://admin:bz123456@112.28.34.41:554/Streaming/Channels/102 -s rtmp -f rtmp://192.168.99.106:10085/hls/test?sign=zlaJjyhZg</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-m tcp3 -d rtsp://221.2.150.241:554/pag://192.168.0.238:7302:37100000051310902555:0:MAIN:TCP -s file -f 2.mp4</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>  -m tcp -d rtmp://demo.easydss.com:10085/hls/Seven23?k=Seven23.b33849192dc728bd8c -s file -f 2.mp4</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

@@ -1,9 +1,47 @@
-﻿生成启动时间为 2019/12/2 19:03:19。
-     1>项目“F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\EasyStreamClient.vcxproj”在节点 2 上(clean 个目标)。
+﻿生成启动时间为 2020/3/31 15:27:33。
+     1>项目“F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\EasyStreamClient.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“Debug\EasyStreamClient.lastbuildstate”。
-     1>已完成生成项目“F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\EasyStreamClient.vcxproj”(clean 个目标)的操作。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+       InitializeBuildStatus:
+         正在创建“Debug\EasyStreamClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS\VS2008\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\EasyStreamClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\VS\VS2008\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\EasyStreamClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main_easyrtmp.cpp
+         main_easyrtmp.cpp
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(96): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(157): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(345): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(350): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workspace\easydarwin\easystreamclient\easystreamclient\main_easyrtmp.cpp(355): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vs2008\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EasyStreamClient.exe.embed.manifest.res" Debug\EasyStreamClient_manifest.rc 
+       Link:
+         e:\VS\VS2008\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\32\EasyStreamClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\workspace\EasyDarwin\EasyStreamClient\Lib\x86 ws2_32.lib wsock32.lib winmm.lib libEasyStreamClient.lib libeasyrtmp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EasyStreamClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspace\EasyDarwin\EasyStreamClient\Bin\32\EasyStreamClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\32\EasyStreamClient.lib" /MACHINE:X86 Debug\EasyStreamClient.exe.embed.manifest.res
+         Debug\main_easyrtmp.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\EasyStreamClient.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\EasyStreamClient.exe.embed.manifest" /manifest Debug\EasyStreamClient.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EasyStreamClient.exe.embed.manifest.res" Debug\EasyStreamClient_manifest.rc 
+       LinkEmbedManifest:
+         e:\VS\VS2008\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\32\EasyStreamClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\workspace\EasyDarwin\EasyStreamClient\Lib\x86 ws2_32.lib wsock32.lib winmm.lib libEasyStreamClient.lib libeasyrtmp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EasyStreamClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspace\EasyDarwin\EasyStreamClient\Bin\32\EasyStreamClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\32\EasyStreamClient.lib" /MACHINE:X86 Debug\EasyStreamClient.exe.embed.manifest.res
+         Debug\main_easyrtmp.obj
+         Debug\stdafx.obj
+         EasyStreamClient.vcxproj -> F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\..\Bin\32\EasyStreamClient.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\EasyStreamClient.unsuccessfulbuild”。
+         正在对“Debug\EasyStreamClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\workspace\EasyDarwin\EasyStreamClient\EasyStreamClient\EasyStreamClient.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.01
+已用时间 00:00:02.73
